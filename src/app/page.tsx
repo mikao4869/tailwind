@@ -4,8 +4,11 @@ import Image from "next/image";
 export default function Home() {
   return (
    <>
-    <div className="w-12 h-12 bg-red rounded-full"></div>
-    <h2 className="text-yellow-400 font-mono text-2xl font-bold">Hi</h2>
+    <div className="max-w-64 h-20 bg-blue-400 rounded-xl m-60 mt-10">
+      <span className="font-mono text-base ml-16 mb-8-7 text-yellow-50">ChitChat</span>
+      <p className="text-xs text-gray-300 ml-16">You have a new message!</p>
+    </div>
+
    </>
   );
 }
